@@ -1,0 +1,119 @@
+
+body {
+    background: aqua;
+    font-family: "Comic Sans MS", "sans-serif";
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font: 500 120px/1 'Source Sans Pro', Arial, sans-serif;
+
+    top: 35%;
+    width: 100%;
+
+    text-shadow:     0 1px 0 hsl(174,5%,80%),
+    0 2px 0 hsl(174,5%,75%),
+    0 3px 0 hsl(174,5%,70%),
+    0 4px 0 hsl(174,5%,66%),
+    0 5px 0 hsl(174,5%,64%),
+    0 6px 0 hsl(174,5%,62%),
+    0 7px 0 hsl(174,5%,61%),
+    0 8px 0 hsl(174,5%,60%),
+
+    0 0 5px rgba(0,0,0,.05),
+    0 1px 3px rgba(0,0,0,.2),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.2),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.3);
+
+
+}
+
+h3 {
+    color: firebrick;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 75px;
+    max-width: 1920px;
+}
+
+.box {
+    display: block;
+    width: 300px;
+    height: 200px;
+    background: white;
+    border: solid black 1px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 25px;
+    font: bolder;
+}
+
+.box a {
+    display: block;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.haha {
+    background: green;
+}
+
+.easy {
+    background: yellow;
+}
+
+.medium {
+    background: orange;
+}
+
+.hard {
+    background: linear-gradient(to bottom,orange 0%, red 100%);
+}
+
+.super-hard {
+    background: linear-gradient(to bottom,firebrick 0%, red 100%);
+}
+
+
+.box:hover {
+    transform: translateY(-10px);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.haha:hover  {
+    box-shadow: #01630a 0 10px 30px 5px;
+    background-image: url("img/haha.gif");
+}
+
+.easy:hover  {
+    box-shadow: gold 0 10px 30px 5px;
+    background-image: url("img/easy.gif");
+}
+
+.medium:hover  {
+    box-shadow: darkorange 0 10px 30px 5px;
+    background-image: url("img/medium.gif");
+}
+
+.hard:hover  {
+    box-shadow: firebrick 0 10px 30px 5px;
+    background-image: url("img/hard.gif");
+
+}
+
+.super-hard:hover  {
+    box-shadow: #890000 0 10px 30px 5px;
+    background-image: url("img/super.gif");
+}
