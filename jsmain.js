@@ -11,7 +11,7 @@ var rimShotAudio = document.getElementById("ha-ha");
 function playRim() {
     rimShotAudio.play();
 }
-var hahaItem = document.getElementById("rimshot-hover-sound");
+let hahaItem = document.getElementById("rimshot-hover-sound");
 hahaItem.addEventListener("mouseover", rimShotAudio.playRim);
 
 //Easy
@@ -66,8 +66,8 @@ easyItem.addEventListener("mouseover", rimHard.playRim4);
 //Super Hard
 
 var superOne = $("#superhard")[0];
-$("#hover-shard").mouseenter(function() {
-    superOneOne.play();
+$("#hover-super-hard").mouseenter(function() {
+    superOne.play();
 });
 
 var rimSuper = document.getElementById("superhard");
@@ -76,6 +76,6 @@ function playRim5() {
     rimSuper.play();
 }
 
-var superItem = document.getElementById("hover-shard");
+var superItem = document.getElementById("hover-super-hard");
 superItem.addEventListener("mouseover", rimSuper.playRim5);
 
